@@ -10,3 +10,6 @@
 
 ## PL SQL Programming
 ✅ Exercise 1: Control Structures
+
+## JUnit Mockito Logging
+✅ Exercise 1: Setting Up JUnit
