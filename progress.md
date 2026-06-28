@@ -6,3 +6,4 @@
 
 ## Data Structures and Algorithms
 ✅ Exercise 2: E-commerce Platform Search Function
+✅ Exercise 7: Financial Forecasting
