@@ -18,3 +18,4 @@
 ✅ Exercise 1: Mocking and Stubbing (Mockito)
 ✅ Exercise 2: Verifying Interactions (Mockito)
 ✅ Exercise 3: Argument Matching (Mockito)
+✅ Exercise 1: Logging Error Messages and Warning Levels (SLF4J)
