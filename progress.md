@@ -13,3 +13,4 @@
 
 ## JUnit Mockito Logging
 ✅ Exercise 1: Setting Up JUnit
+✅ Exercise 3: Assertions in JUnit
