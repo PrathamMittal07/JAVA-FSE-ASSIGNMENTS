@@ -15,3 +15,4 @@
 ✅ Exercise 1: Setting Up JUnit
 ✅ Exercise 3: Assertions in JUnit
 ✅ Exercise 4: Arrange-Act-Assert (AAA) Pattern and Test Fixtures
+✅ Exercise 1: Mocking and Stubbing (Mockito)
