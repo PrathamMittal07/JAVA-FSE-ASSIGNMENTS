@@ -22,7 +22,7 @@ This repository contains the completed hands-on exercises for the Cognizant Digi
 Organized module-wise according to the topics covered.
 
 ## Total Exercises Completed
-7
+8
 
 ## Progress Table
 See [progress.md](./progress.md) for detailed progress tracking.
