@@ -1,0 +1,261 @@
+﻿[
+  {
+    "Mandatory hands-on": "Filename",
+    "__EMPTY": "Name",
+    "Additional important hands-on": "Filename",
+    "__EMPTY_1": "Name"
+  },
+  {
+    "Skill": "Design principles & Patterns",
+    "Mandatory hands-on": "Design Patterns and Principles",
+    "__EMPTY": "Exercise 1: Implementing the Singleton Pattern"
+  },
+  {
+    "Skill": "Design principles & Patterns",
+    "Mandatory hands-on": "Design Patterns and Principles",
+    "__EMPTY": "Exercise 2: Implementing the Factory Method Pattern"
+  },
+  {
+    "Skill": "Data structures and Algorithms",
+    "Mandatory hands-on": "Algorithms_Data Structures",
+    "__EMPTY": "Exercise 2: E-commerce Platform Search Function"
+  },
+  {
+    "Skill": "Data structures and Algorithms",
+    "Mandatory hands-on": "Algorithms_Data Structures",
+    "__EMPTY": "Exercise 7: Financial Forecasting"
+  },
+  {
+    "Skill": "PL/SQL programming",
+    "Mandatory hands-on": "PLSQL_Exercises",
+    "__EMPTY": "Exercise 1: Control Structures"
+  },
+  {
+    "Skill": "PL/SQL programming",
+    "Mandatory hands-on": "PLSQL_Exercises",
+    "__EMPTY": "Exercise 3: Stored Procedures"
+  },
+  {
+    "Skill": "TDD using JUnit5 and Mockito",
+    "Mandatory hands-on": "1. JUnit_Basic Testing Exercises",
+    "__EMPTY": "Exercise 1: Setting Up JUnit"
+  },
+  {
+    "Skill": "TDD using JUnit5 and Mockito",
+    "Mandatory hands-on": "1. JUnit_Basic Testing Exercises",
+    "__EMPTY": "Exercise 3: Assertions in JUnit"
+  },
+  {
+    "Skill": "TDD using JUnit5 and Mockito",
+    "Mandatory hands-on": "1. JUnit_Basic Testing Exercises",
+    "__EMPTY": "Exercise 4: Arrange-Act-Assert (AAA) Pattern, Test Fixtures, Setup and"
+  },
+  {
+    "__EMPTY": "Teardown Methods in JUnit"
+  },
+  {
+    "Skill": "TDD using JUnit5 and Mockito",
+    "Mandatory hands-on": "3. Mockito exercises",
+    "__EMPTY": "Exercise 1: Mocking and Stubbing"
+  },
+  {
+    "Skill": "TDD using JUnit5 and Mockito",
+    "Mandatory hands-on": "3. Mockito exercises",
+    "__EMPTY": "Exercise 2: Verifying Interactions"
+  },
+  {
+    "Skill": "SLF4J logging framework",
+    "Mandatory hands-on": "6. SL4J Logging exercises",
+    "__EMPTY": "Exercise 1: Logging Error Messages and Warning Levels"
+  },
+  {
+    "Skill": "Spring Core and Maven",
+    "Mandatory hands-on": "Spring Core_Maven",
+    "__EMPTY": "Exercise 1: Configuring a Basic Spring Application",
+    "__EMPTY_1": "Exercise 5: Configuring the Spring IoC Container"
+  },
+  {
+    "Skill": "Spring Core and Maven",
+    "Mandatory hands-on": "Spring Core_Maven",
+    "__EMPTY": "Exercise 2: Implementing Dependency Injection",
+    "__EMPTY_1": "Exercise 7: Implementing Constructor and Setter Injection"
+  },
+  {
+    "Skill": "Spring Core and Maven",
+    "Mandatory hands-on": "Spring Core_Maven",
+    "__EMPTY": "Exercise 4: Creating and Configuring a Maven Project",
+    "__EMPTY_1": "Exercise 9: Creating a Spring Boot Application"
+  },
+  {
+    "Skill": "Spring Data JPA with Spring Boot, Hibernate",
+    "Mandatory hands-on": "1. spring-data-jpa-handson",
+    "__EMPTY": "Spring Data JPA - Quick Example",
+    "Additional important hands-on": "1. spring-data-jpa-handson",
+    "__EMPTY_1": "Implement services for managing Country"
+  },
+  {
+    "Skill": "Spring Data JPA with Spring Boot, Hibernate",
+    "Mandatory hands-on": "1. spring-data-jpa-handson",
+    "__EMPTY": "Difference between JPA, Hibernate and Spring Data JPA",
+    "Additional important hands-on": "1. spring-data-jpa-handson",
+    "__EMPTY_1": "Find a country based on country code"
+  },
+  {
+    "Skill": "Spring Data JPA with Spring Boot, Hibernate",
+    "Additional important hands-on": "1. spring-data-jpa-handson",
+    "__EMPTY_1": "Add a new country"
+  },
+  {
+    "Skill": "Spring Data JPA with Spring Boot, Hibernate",
+    "Additional important hands-on": "2. spring-data-jpa-handson",
+    "__EMPTY_1": "Demonstrate implementation of Query Methods feature of Spring Data JPA"
+  },
+  {
+    "Skill": "Spring Data JPA with Spring Boot, Hibernate",
+    "Additional important hands-on": "2. spring-data-jpa-handson",
+    "__EMPTY_1": "Demonstrate implementation of O/R Mapping"
+  },
+  {
+    "Skill": "Spring Data JPA with Spring Boot, Hibernate",
+    "Additional important hands-on": "3. spring-data-jpa-handson",
+    "__EMPTY_1": "Demonstrate writing Hibernate Query Language and Native Query"
+  },
+  {
+    "Skill": "Spring REST using Spring Boot 3",
+    "Mandatory hands-on": "1. spring-rest-handson",
+    "__EMPTY": "Create a Spring Web Project using Maven",
+    "Additional important hands-on": "3. spring-rest-handson",
+    "__EMPTY_1": "All hands-on"
+  },
+  {
+    "Skill": "Spring REST using Spring Boot 3",
+    "Mandatory hands-on": "1. spring-rest-handson",
+    "__EMPTY": "Spring Core ΓÇô Load Country from Spring Configuration XML"
+  },
+  {
+    "Skill": "Spring REST using Spring Boot 3",
+    "Mandatory hands-on": "2. spring-rest-handson",
+    "__EMPTY": "Hello World RESTful Web Service"
+  },
+  {
+    "Skill": "Spring REST using Spring Boot 3",
+    "Mandatory hands-on": "2. spring-rest-handson",
+    "__EMPTY": "REST - Country Web Service"
+  },
+  {
+    "Skill": "Spring REST using Spring Boot 3",
+    "Mandatory hands-on": "2. spring-rest-handson",
+    "__EMPTY": "REST - Get country based on country code"
+  },
+  {
+    "Skill": "Spring REST using Spring Boot 3",
+    "Mandatory hands-on": "5. JWT-handson",
+    "__EMPTY": "Create authentication service that returns JWT"
+  },
+  {
+    "Skill": "Microservices with Spring Boot 3 and Spring Cloud",
+    "Mandatory hands-on": "2. Microservices with API gateway",
+    "__EMPTY": "Creating Microservices for account and loan",
+    "Additional important hands-on": "2. Microservices with API gateway",
+    "__EMPTY_1": "Create Eureka Discovery Server and register"
+  },
+  {
+    "__EMPTY_1": "microservices"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "1. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "6. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "2. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "7. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "3. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "8. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "4. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "5. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "9. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "13. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "10. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "14. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "11. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "15. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "12. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "16. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "React",
+    "Mandatory hands-on": "13. ReactJS-HOL",
+    "__EMPTY": "Hands-on in this document",
+    "Additional important hands-on": "17. ReactJS-HOL",
+    "__EMPTY_1": "Hands-on in this document"
+  },
+  {
+    "Skill": "GIT",
+    "Mandatory hands-on": "1. Git-HOL",
+    "__EMPTY": "Hands-on in this document"
+  },
+  {
+    "Skill": "GIT",
+    "Mandatory hands-on": "2. Git-HOL",
+    "__EMPTY": "Hands-on in this document"
+  },
+  {
+    "Skill": "GIT",
+    "Mandatory hands-on": "3. Git-HOL",
+    "__EMPTY": "Hands-on in this document"
+  },
+  {
+    "Skill": "GIT",
+    "Mandatory hands-on": "4. Git-HOL",
+    "__EMPTY": "Hands-on in this document"
+  },
+  {
+    "Skill": "GIT",
+    "Mandatory hands-on": "5. Git-HOL",
+    "__EMPTY": "Hands-on in this document"
+  },
+  {
+    "Skill": "Angular",
+    "Mandatory hands-on": "Angular Hands-on",
+    "__EMPTY": "Hands-on in this document"
+  }
+]
