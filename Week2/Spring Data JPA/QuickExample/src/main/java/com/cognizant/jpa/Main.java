@@ -1,49 +1,51 @@
 package com.cognizant.jpa;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 
-@Entity
-class Country {
-    @Id
-    private String code;
-    private String name;
-
-    public Country() {}
-    public Country(String code, String name) {
-        this.code = code;
-        this.name = name;
-    }
-    public String getCode() { return code; }
-    public String getName() { return name; }
-    public void setCode(String code) { this.code = code; }
-    public void setName(String name) { this.name = name; }
-}
-
-@Repository
-interface CountryRepository extends JpaRepository<Country, String> {
-}
-
+/**
+ * Spring Data JPA – Quick Example
+ *
+ * Demonstrates the full Spring Data JPA workflow:
+ *   1. Define a JPA Entity (Country.java)
+ *   2. Create a Repository interface (CountryRepository.java)
+ *   3. Spring Data JPA auto-generates CRUD implementations
+ *   4. Use H2 in-memory database (no external DB setup needed)
+ *
+ * How to run: mvn spring-boot:run
+ */
 @SpringBootApplication
 public class Main {
+
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
 
+    /**
+     * CommandLineRunner runs after the application context is loaded.
+     * Demonstrates saving and retrieving Country records.
+     */
     @Bean
     public CommandLineRunner demo(CountryRepository repository) {
         return (args) -> {
+            System.out.println("=== Spring Data JPA Quick Example ===");
+
+            // Save countries to H2 in-memory DB using repository.save()
             repository.save(new Country("IN", "India"));
             repository.save(new Country("US", "United States"));
-            
-            System.out.println("Countries found with findAll():");
-            repository.findAll().forEach(c -> System.out.println(c.getCode() + " - " + c.getName()));
+            repository.save(new Country("UK", "United Kingdom"));
+
+            // Retrieve all countries using repository.findAll()
+            System.out.println("\nAll countries in the database:");
+            repository.findAll().forEach(System.out::println);
+
+            // Find by ID (country code) using repository.findById()
+            System.out.println("\nFind country with code 'IN':");
+            repository.findById("IN").ifPresent(System.out::println);
+
+            System.out.println("\nTotal countries: " + repository.count());
         };
     }
 }
