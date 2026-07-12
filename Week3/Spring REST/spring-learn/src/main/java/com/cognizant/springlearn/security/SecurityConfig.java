@@ -10,6 +10,7 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.Customizer;
 
 @Configuration
@@ -34,6 +35,9 @@ public class SecurityConfig {
         return new InMemoryUserDetailsManager(admin, user);
     }
 
+    @Autowired
+    private org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration authenticationConfiguration;
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         LOGGER.info("Start filterChain");
@@ -45,7 +49,7 @@ public class SecurityConfig {
             )
             .httpBasic(Customizer.withDefaults())
             // Added JWT Filter
-            .addFilter(new JwtAuthorizationFilter(http.getSharedObject(org.springframework.security.authentication.AuthenticationManager.class)));
+            .addFilter(new JwtAuthorizationFilter(authenticationConfiguration.getAuthenticationManager()));
         
         return http.build();
     }
